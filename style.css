@@ -1,0 +1,201 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    overflow: hidden;
+}
+.na{
+    color: #003311;
+    font-size: small;
+}
+
+.dj{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.btndj{
+    text-decoration: none;
+    height: 9vh;
+}
+
+.learn{
+    text-align: center;
+}
+
+
+.learnmore{
+    background-color: white;
+    color: grey;
+    padding: 20px 120px ;
+    font-size: 18px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    border: 1px solid #dfd9d9;
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+
+}
+.learnmore:hover{
+    border: 1px solid #44B78B;
+    color: #44B78B;
+
+}
+
+.meetdjango{
+    color: black;
+    /* padding-left: 10px; */
+    padding-top: 50px;
+    width: 100%;
+    
+}
+
+.meethead{
+    font-size: 200%;
+   
+}
+
+
+
+.meetdes{
+    font-size: 22px;
+}
+
+
+.usd{
+    display: flex;
+    /* padding-left: 60px; */
+    padding-top: 20px;
+    width: 100%;
+}
+.usingdj{
+    width: 100%;
+}
+/* @media only all and (min-width: 760px)
+ {
+     .usingdj {
+         display: flex;
+         flex-direction: column;
+     }
+    
+} */
+
+.using{
+    color: #44B78B; 
+}
+.mail{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.far .fa-envelope{
+    color: black;
+}
+.icon-mail{
+    position: absolute;
+    z-index: 0;
+    left: -80px;
+    margin-top: 8px;
+    
+}
+
+.icon-mail:hover{
+    color: #44B78B;
+    cursor: pointer;
+}
+
+.icon-mail2{
+    position: absolute;
+    z-index: 1;
+    left: 920px;
+    margin-top: 8px;
+    
+}
+.icon-mail2:hover{
+    color: #44B78B;
+    cursor: pointer;
+}
+
+
+
+
+.cont{
+
+   padding: 0;
+
+}
+
+.support{
+    /* margin-top: -16px; */
+    
+}
+
+
+.btnsprtdj{
+
+    padding: 2vh;
+    height: 9vh;
+}
+
+
+.morenews{
+    color: #44B78B;
+}
+
+.heart{
+    display: flex;
+}
+
+.donatepara{
+    font-size: small;
+    color: #44B78B
+}
+
+.djsecu{
+    color: #44B78B;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.djsecudes{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.djauth{
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+
+}
+
+.symbol{
+    display: flex;
+
+}
+
+.symnote{
+    color: #44B78B;
+    width: 17px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(28, 177, 102, 0.836);
+}
+
